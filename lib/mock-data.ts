@@ -1,0 +1,43 @@
+import { Founder } from './types';
+
+export const mockFounders: Founder[] = [
+  {
+    id: "1",
+    name: "Sarah Chen",
+    age: 28,
+    role: "Tech Lead",
+    company: "Ex-Google",
+    bio: "Building AI-powered solutions for healthcare. Looking for a business co-founder with healthcare industry experience.",
+    skills: ["Machine Learning", "Python", "Healthcare"],
+    telegram: "@sarahchen",
+    imageUrl: "https://images.unsplash.com/photo-1494790108377-be9c29b29330",
+    lastActive: "2 hours ago",
+    matchPercentage: 95,
+  },
+  {
+    id: "2",
+    name: "Alex Rivera",
+    age: 31,
+    role: "Product Manager",
+    company: "Ex-Stripe",
+    bio: "Passionate about fintech and blockchain. Seeking technical co-founder for a DeFi project.",
+    skills: ["Product Strategy", "Fintech", "Blockchain"],
+    telegram: "@alexrivera",
+    imageUrl: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
+    lastActive: "5 minutes ago",
+    matchPercentage: 88,
+  },
+  {
+    id: "3",
+    name: "Emily Zhang",
+    age: 27,
+    role: "UX Designer",
+    company: "Freelance",
+    bio: "Creating beautiful, user-centered designs. Looking for a technical co-founder to build a design collaboration tool.",
+    skills: ["UI/UX", "Figma", "User Research"],
+    telegram: "@emilyzhang",
+    imageUrl: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80",
+    lastActive: "1 day ago",
+    matchPercentage: 92,
+  },
+];
